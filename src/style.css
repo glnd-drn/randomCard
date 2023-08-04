@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #0e7e12;
+  margin-top: auto;
+}
+.reverse {
+  padding-right: 290px;
+  transform: rotate(180deg);
+  justify-content: end;
+  margin-top: 80px;
+  font-size: 80px;
+}
+
+.heading {
+  padding-left: 30px;
+  margin-bottom: 80px;
+  font-size: 80px;
+}
+
+#app {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  height: auto;
+  box-sizing: content-box;
+}
+.number {
+  font-size: 105px;
+}
